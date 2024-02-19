@@ -115,31 +115,31 @@ button[aria-expanded="true"] .menu-icon span:nth-child(3) {
 /* End Nav */
 
 /* Start header */
-#home {
+#header {
   background-image: url(../image/full/full-8-1.jpeg);
   background-position: center;
   background-size: cover;
 
 }
-#home .overlay {
+#header .overlay {
   background-color: rgba(0, 0, 0, 0.5);
   height: 100vh;
 }
-#home p {
+#header p {
   max-width: 660px;
 }
-#home button {
+#header button {
   outline: none;
   border: 0;
   font-family: "OpenSans-600";
 }
-#home .icon-bottom {
+#header .icon-bottom {
   width: 30px;
   height: 45px;
   position: absolute;
   bottom: 20px;
 }
-#home .icon-bottom div {
+#header .icon-bottom div {
   width: 8px;
   height: 8px;
   border-radius: 50%;
