@@ -38,6 +38,9 @@
   /* for search icon */
 
   /* -------start header----- */
+  #home {
+    background-attachment: fixed;
+  }
   #home h1 {
     font-size: 4rem;
   }
