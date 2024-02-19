@@ -191,7 +191,7 @@ button[aria-expanded="true"] .menu-icon span:nth-child(3) {
 
 }
 #Our-Work .ourwork-box .box-img{
-  z-index: -1;
+  /* z-index: 1; */
 }
 #Our-Work .ourwork-box .box-img:hover > img {
   transform: scale(1.2);
@@ -204,7 +204,10 @@ button[aria-expanded="true"] .menu-icon span:nth-child(3) {
 .icon-color {
   color: #a8a8a8;
 }
-
+.layer-fix{
+  /* position: relative;
+ z-index: -1; */
+}
 .nav-tabs .nav-link {
   position: relative;
   border: 0;
