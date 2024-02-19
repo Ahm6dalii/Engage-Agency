@@ -1,0 +1,119 @@
+@media (min-width: 992px) {
+  nav{
+    background-color: #212529;
+  }
+  nav a div:first-child {
+    display: none;
+  }
+  nav .nav-link {
+    --bs-nav-link-color: #fff;
+  }
+  nav .search-icon {
+    color: #fff;
+  }
+  /* nav .nav-link.active,
+  .navbar-nav .nav-link.show {
+    --bs-navbar-active-color: #fff;
+  } */
+  .nav-link:focus,
+  .nav-link:hover {
+    --bs-nav-link-hover-color: #fff;
+  }
+  /* for search icon */
+  form #search {
+    font-size: 3rem;
+    color: white;
+  }
+  form #search:focus {
+    border: 0;
+    outline: 0;
+  }
+  form #search::placeholder {
+    font-size: 4rem;
+  }
+  div.search *,
+  div.search {
+    cursor: pointer;
+  }
+  /* for search icon */
+
+  /* -------start header----- */
+  #home h1 {
+    font-size: 4rem;
+  }
+  /* -------end header----- */
+  .modal-header {
+    width: 50%;
+  }
+  #Our-Work .carousel {
+    width: 50%;
+  }
+}
+@media (min-width: 778px) {
+  form #search {
+    font-size: 2rem;
+    color: white;
+  }
+}
+@media (max-width: 776px) {
+  form #search {
+    font-size: 1.2rem;
+    color: white;
+  }
+}
+
+@media (max-width: 578px) {
+  /* start silder our work section */
+  .modal-content {
+    position: absolute;
+    top: 120px;
+  }
+  .modal-body {
+    padding: 0;
+  }
+  .modal-header .btn-close {
+    top: -25px;
+  }
+ /* end silder our work section */
+
+}
+@media (max-width: 992px) {
+  nav a div:last-child {
+    display: none;
+  }
+  nav .nav-link {
+  }
+  nav {
+    background-color: #fff;
+  }
+  .dropdown-menu {
+    border-left: 0;
+    border-right: 0;
+  }
+  .dropdown-menu a {
+    color: #212529 !important;
+  }
+  ul.dropdown-menu {
+    background-color: #fff;
+    padding: 0;
+    padding-inline: 20px;
+  }
+
+  ul.dropdown-menu > li {
+    padding-block: 10px;
+    padding-inline: 0;
+    border-bottom: 1px solid #b4b1b1;
+  }
+/* start silder our work section */
+  .carousel {
+    width: 100%;
+  }
+  button.btn-close {
+    position: absolute;
+    right: 0;
+    top: -5px;
+    margin-left: 5px;
+  }
+  /* end silder our work section */
+  .fixed-icon {display: none};
+}
