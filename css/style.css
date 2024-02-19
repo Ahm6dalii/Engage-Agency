@@ -180,6 +180,7 @@ button[aria-expanded="true"] .menu-icon span:nth-child(3) {
 }
 /* end service */
 /* start Our Work */
+
 #Our-Work .ourwork-box .layer {
   opacity: 0;
   visibility: hidden;
@@ -187,6 +188,10 @@ button[aria-expanded="true"] .menu-icon span:nth-child(3) {
 }
 #Our-Work .ourwork-box img {
   transition: var(--animation-duration);
+
+}
+#Our-Work .ourwork-box .box-img{
+  z-index: -1;
 }
 #Our-Work .ourwork-box .box-img:hover > img {
   transform: scale(1.2);
@@ -236,6 +241,7 @@ button[aria-expanded="true"] .menu-icon span:nth-child(3) {
 #Pricing .testimonal .testimonal-text {
   background-color: #f8f8f8;
   position: relative;
+  z-index: -1;
 }
 #Pricing .testimonal .testimonal-text::before {
   content: "";
@@ -259,7 +265,10 @@ button[aria-expanded="true"] .menu-icon span:nth-child(3) {
 }
 /* end Testimonials princing */
 /* Start Blog*/
-.card a i {
+#Blog .inner .card{
+  z-index: -1;
+} 
+#Blog .card a i {
   transition: var(--animation-duration);
 }
 
