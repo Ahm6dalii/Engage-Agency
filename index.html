@@ -195,15 +195,15 @@
     <!-- ================= Start Header ================== -->
     <header class="main vh-100" id="home">
       <div
-        class="overlay position-relative d-flex justify-content-center align-items-center" id="btn-target"
+        class="overlay position-relative d-flex justify-content-center align-items-center " id="btn-target"
       >
     
         <div
-          class="hero-content text-white text-center d-flex flex-column align-items-center "
+          class="hero-content text-white text-center d-flex flex-column align-items-center overflow-hidden"
         >
           <p class="fs-5 mb-2 animate__animated animate__zoomIn">Welcome to</p>
           <h1 class="animate__animated animate__lightSpeedInLeft">Engage Agency</h1>
-          <p class="py-2 fs-5 animate__animated animate__zoomIn">
+          <p class="py-2 fs-5 animate__animated animate__slideInRight">
             We're the biggest, best equipped and most advanced Web Agency in the
             greater Los Angeles area.
           </p>
@@ -993,8 +993,8 @@
             aria-labelledby="design-tab"
             tabindex="0"
           >
-            <div class="container">
-              <div class="row gy-4 layer-fix">
+            <div class="container over ">
+              <div class="row gy-4 layer-fix overflow-hidden">
                 <!-- !start image preview -->
                 <div class="col-md-6 col-xl-4 animate__animated  animate__bounceInRight   ">
                   <div class="ourwork-box">
@@ -1177,7 +1177,7 @@
             class="tab-pane fade"
             id="Grapgics-tab-pane"
             role="tabpanel"
-            aria-labelledby=" Grapgics-tab"
+            aria-labelledby="Grapgics-tab"
             tabindex="0"
           >
             <div class="container">
@@ -2725,20 +2725,7 @@
       </div>
     </footer>
      <!-- =================  End Footer================== -->
-<script>
- function scrollToBottom() {
-    scrollInterval;
-    stopScroll;
 
-    var scrollInterval = setInterval(function () {
-        document.documentElement.scrollTop = document.documentElement.scrollHeight;
-    }, 50);
-
-    var stopScroll = setInterval(function () {
-        clearInterval(scrollInterval);
-    }, 100);
-}
- </script>
     <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
