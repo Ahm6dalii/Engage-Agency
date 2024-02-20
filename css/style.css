@@ -342,3 +342,18 @@ footer .social span:nth-of-type(4):hover {
   color: #fff;
 }
 /* End footer */
+
+/* fix auto scroll down */
+.scroll-animation {
+  animation: scroll-down .0005s;
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+  /* fix auto scroll down */
+}
